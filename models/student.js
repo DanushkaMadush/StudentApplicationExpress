@@ -49,19 +49,16 @@ const StudentSchema = mongoose.Schema(
 
     licenseStatus: {
       type: String,
-      required: false,
       default: "Inactive",
     },
 
     approvalStatus: {
       type: String,
-      required: false,
       default: "Pending",
     },
 
     expiryDate: {
       type: String,
-      required: false,
       default: "N/A",
     },
   },
